@@ -1,5 +1,8 @@
 /*This is the stylesheet for the homepage*/
 
+html * {
+  font-family: sans-serif;
+}
 #header {
   background-color: blue;
   margin-left: 500px;
@@ -9,6 +12,43 @@
 }
 h1 {
   color: white;
-  font-family: Arial;
+  font-family: sans-serif;
+  font-size: 30pt;
   text-align: center;
+}
+h2 {
+  font-size: 25pt;
+  text-align: center;
+}
+h3 {
+  font-size: 18pt;
+  text-align: center;
+  text-decoration: underline;
+}
+
+/*Class*/
+.class {
+  border-style: solid;
+  border-width: 5px;
+  text-align: center;
+  margin-bottom: 15px;
+  padding-bottom: 30px;
+  margin-left: 100px;
+  margin-right: 100px;
+}
+#bozo {
+  border-color: red;
+  background-color: pink;
+}
+#mime {
+  border-color: gray;
+  background-color: lightgray;
+}
+#rodeo {
+  border-color: #865221;
+  background-color: #dba777;
+}
+#fool {
+  border-color: blue;
+  background-color: lightblue;
 }
